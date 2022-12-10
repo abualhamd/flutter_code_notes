@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code_notes/animations/rotation.dart';
+import 'package:flutter_code_notes/curves/animated_curves.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const RotationAnimation()
+      home: const AnimatedCurves(),
     );
   }
 }

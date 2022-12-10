@@ -22,7 +22,7 @@ class AppbarCurves extends StatelessWidget {
       clipper: AppbarClipper(),
       child: Container(
         width: double.infinity,
-        height: 200,
+        // height: 200,
         color: Colors.deepPurple,
       ),
     );
