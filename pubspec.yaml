@@ -35,6 +35,7 @@ dependencies:
   equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_animate: ^4.1.1+1
   flutter_bloc: ^8.1.2
   fluttertoast: ^8.2.1
   get_it: ^7.2.0
